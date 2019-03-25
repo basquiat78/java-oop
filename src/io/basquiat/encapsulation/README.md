@@ -111,11 +111,11 @@ coupon.getExpiryDate().getTime() < 1000000000
 예를 들면 다음과 같은 코드도 있을 수 있다.
 
 ```
-if(coupon.getExpiryDate() != null && coupon.getExpiryDate().getTime() < 1000000000) {
-	if("SKT".equals(coupon.getMobileCarrier()) {
+if("SKT".equals(coupon.getMobileCarrier()) {
+	if(coupon.getExpiryDate() != null && coupon.getExpiryDate().getTime() < 1000000000) {
 	...
-	else if("KT".equals(coupon.getMobileCarrier()) {
-	...
+} else if("KT".equals(coupon.getMobileCarrier()) {
+	if(coupon.getExpiryDate() != null && coupon.getExpiryDate().getTime() < 2000000000) {
 ```
 
 감이 오는가 저런 조건에 따라서 만일 쿠폰 유효기간이 증가될 수 있다고 가정한다면 이것은 이중 if 조건 또는 하나의 if문에 중첩된 조건을 나열하게 된다.    
