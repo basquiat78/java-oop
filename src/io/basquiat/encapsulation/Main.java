@@ -3,6 +3,11 @@ package io.basquiat.encapsulation;
 import java.util.Date;
 import java.util.UUID;
 
+/**
+ * 
+ * created by basquiat
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
