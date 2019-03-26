@@ -382,13 +382,6 @@ public class Vehicle {
 	@Getter
 	private String vehicleName;
 	
-	public void ride() {
-		System.out.println("탈것에 탑니다.");
-	}
-	
-	public void move() {
-		System.out.println("탈것을 타고 이동합니다.");
-	}
 }
 ```
 
