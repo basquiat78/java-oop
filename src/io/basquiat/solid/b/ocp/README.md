@@ -247,9 +247,9 @@ public class GameCharacter {
 
 ```
 
-Vehicle을 extends해서 부모의 메소드를 재정의하고 타입을 지정할 수 있게 해놨다.
+Vehicle을 extends해서 부모의 메소드를 재정의하고 탈것을 지정할 수 있게 해놨다.
 
-그리고 GameCharacter에서는 type을 파라미터로 넘겨받아 어떤 것을 타고 달릴지를 결정하게 만들었다.
+그리고 GameCharacter에서는 탈것의 객체를 파라미터로 넘겨받아 어떤 것을 타고 달릴지를 결정하게 만들었다.
 
 이 코드는 아무 문제 없이 돌아간다. 그리고 웃는다. 별거 아니네하고...
 
