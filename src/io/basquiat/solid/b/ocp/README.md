@@ -446,7 +446,7 @@ public class Main {
 
 ```
 
-자...그러면 위와 같은 상황에서 바다에서 탈 수 있는 것을 만들게 된다면 우리는 GameCharacter의 로직을 바꾸지 않고 단지 VehicleStrategy와 예를 들면 SeaVehicleStrategy 클래스를 생성해서 단지 GameCharacter에 setVehicle를 하는 것만으로 요청 사항을 추가 할 수 있게 되었다.
+자...그러면 위와 같은 상황에서 바다에서 탈 수 있는 것을 만들게 된다면 우리는 GameCharacter의 로직을 바꾸지 않고 단지 VehicleStrategy을 구현하는 구현체, 예를 들면 SeaVehicleStrategy 클래스를 생성해서 단지 GameCharacter에 setVehicle를 하는 것만으로 요청 사항을 추가 할 수 있게 되었다.
 
 또한 기존의 탈것외에도 다양한 탈것들을 추가하는데 있어서 역시 유연함을 얻게 된다.
 
