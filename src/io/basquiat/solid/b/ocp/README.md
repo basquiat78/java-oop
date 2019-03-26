@@ -385,6 +385,50 @@ public class Vehicle {
 }
 ```
 
+Horse.java
+
+```
+package io.basquiat.solid.b.ocp.model;
+
+import io.basquiat.solid.b.ocp.strategy.EarthVehicleStrategy;
+
+/**
+ * 
+ * created by basquiat
+ *
+ */
+public class Horse extends EarthVehicleStrategy {
+
+	public Horse() {
+		super("말");
+	}
+	
+}
+
+```
+
+BigBird.java
+
+```
+package io.basquiat.solid.b.ocp.model;
+
+import io.basquiat.solid.b.ocp.strategy.SkyVehicleStrategy;
+
+/**
+ * 
+ * created by basquiat
+ *
+ */
+public class BigBird extends SkyVehicleStrategy {
+	
+	public BigBird() {
+		 super("빅버드");
+	}
+	
+}
+
+```
+
 최종적으로 GameCharacter는 다음과 같이 바뀌게 될것이다.
 
 GameCharacter.java
