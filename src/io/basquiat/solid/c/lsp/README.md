@@ -53,9 +53,6 @@ import lombok.Getter;
  */
 public class Dog extends Animal {
 
-	@Getter
-	private boolean isStarve;
-
 	@Override
 	public void cry() {
 		System.out.println("강아지가 멍멍~ 하고 울고 있습니다.");
