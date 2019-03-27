@@ -250,6 +250,7 @@ if(coupon.getExpiryDate() != null && coupon.getExpiryDate().getTime() < 10000000
 결국 데이터 중심의 절차 지향보다는 객체 지향의 관점에서 바라봐야 한다.
 
 전체 코드
+
 ```
 package io.basquiat.encapsulation;
 
